@@ -31,10 +31,18 @@ console.log(Math);
 // console.log(Math.max(83,838,9848,8488,9222,9933));
 
 console.log(Math.random());  //if not defined show valiue between 0-1
+console.log((Math.random()*10)+1);
+
 console.log(Math.floor(Math.random()*10) + 1);   //1 -10
 
 const min = 10
 const max = 20
+
+//if we want to choose random num between min and max
+
+console.log(Math.floor(Math.random()*(max - min + 1)) + min);
+
+
 
 
 
