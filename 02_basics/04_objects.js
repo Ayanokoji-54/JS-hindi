@@ -43,15 +43,41 @@ const users = [
     }
 ]
 // users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));  //returns array of keys
-console.log(Object.values(tinderUser));  //returns array of values
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));  //returns array of keys
+// console.log(Object.values(tinderUser));  //returns array of values
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('loggedin'));
+// console.log(tinderUser.hasOwnProperty('loggedin'));
+
+//de-structure
 
 
+const course = {
+    coursename : "JS Hindi",
+    price : "999",
+    courseInstructor : "Hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: Instructor} = course  //we can assign shortcut 
+console.log(Instructor);
+
+
+// JSON api's talks
+// {
+//     "name":"Deepak",
+//     "coursename":"Js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
 
 
 
