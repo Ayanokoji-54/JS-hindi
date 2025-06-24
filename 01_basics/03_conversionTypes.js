@@ -14,7 +14,7 @@ let valueInNumber = Number(score)
 //null => 0
 //true/false => 1/0
 
-let isLoggedIn = "jhgdw"
+let isLoggedIn = "no"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 // console.log(booleanIsLoggedIn);
@@ -56,14 +56,22 @@ let str3 = str1 + str2
 
 // console.log(+true);
 // console.log(true+); //error
-// console.log(+"");
+console.log(+"");
+
+// +""  →  Number("")  →  0
+// +true       // 1
+// +false      // 0
+// +null       // 0
+// +undefined  // NaN
+// +"123"      // 123
+// +"abc"      // NaN
 
 let num1 ,num2 ,num3
 num1 = num2 =num3 = 2+2
 
 let counter=100
 counter++;
-console.log(counter);
+// console.log(counter);
 
 
 //explore mdn for prefix and postfix

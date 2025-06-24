@@ -15,7 +15,7 @@ const id = Symbol('123')
 const Anotherid = Symbol('123')  //both are different
 
 // lets check
-console.log(id == Anotherid);
+// console.log(id == Anotherid);
 const bigNumber = 363581538763136972n
 
 
